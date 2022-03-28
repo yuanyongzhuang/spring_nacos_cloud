@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.yyz.springNacosCloud.log.GlobalLogAop,\
+  com.yyz.springNacosCloud.config.FeignConfig,\
+  com.yyz.springNacosCloud.config.WebConfig
