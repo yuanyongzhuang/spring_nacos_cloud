@@ -164,7 +164,7 @@ public class AutoGeneratorCode {
                         .enableLombok()//开启 lombok 模型，默认值:false
                         .enableChainModel()//开启链式模型，默认值:false
                         .enableTableFieldAnnotation()//开启生成实体时生成字段注解，默认值:false
-                        .enableActiveRecord()//开启 ActiveRecord 模型，默认值:false
+                        //.enableActiveRecord()//开启 ActiveRecord 模型，默认值:false
                         .naming(NamingStrategy.underline_to_camel)//数据库表映射到实体的命名策略，默认下划线转驼峰命名:NamingStrategy.underline_to_camel
                         .columnNaming(NamingStrategy.underline_to_camel)//数据库表字段映射到实体属性的命名策略，默认为 null，未指定按照 naming 执行
                         .idType(IdType.AUTO)//全局主键类型
